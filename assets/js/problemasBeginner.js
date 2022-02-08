@@ -14,7 +14,7 @@ export function num_max(num1, num2){
         return "Ingrese un numero valido";
     }
 }
-
+/* Esto es un comentari para probar */
 /* 
 * Realize una funcion que recibe un caracter y que retorne true si es vocal
  */
