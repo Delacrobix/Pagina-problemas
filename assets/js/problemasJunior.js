@@ -49,3 +49,10 @@ function marcarElemento(pilaPosicion, cadenaAux){
 let stri = "(Hoy tengo) que contar { lo sigui(entr[ksdjjsadf])}";
 
 console.log(isClosed(stri));
+
+
+/* 
+*Dada una estructura jerarquica (una empresa por ejemplo). A su ves esta estructura
+*tiene forma de arbol. ¿Cual seria el primer jefe comun en esta jerarquia si introducimos
+*dos trabajadores en cargos arbitrarios? 
+*/
