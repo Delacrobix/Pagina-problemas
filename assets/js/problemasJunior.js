@@ -56,3 +56,7 @@ console.log(isClosed(stri));
 *tiene forma de arbol. ¿Cual seria el primer jefe comun en esta jerarquia si introducimos
 *dos trabajadores en cargos arbitrarios? 
 */
+
+function buscarJefeComun(arbol, worker1, worker2){
+
+}

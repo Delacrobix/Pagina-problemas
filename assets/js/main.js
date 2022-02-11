@@ -6,8 +6,6 @@ document.getElementById("num_inputs").addEventListener('keyup', imprimirInputs);
 document.getElementById("input_textoParaInvertir").addEventListener('keyup', mostrarTextoInverso);
 document.getElementById("input_numeroPrimo").addEventListener('keyup', mostrarSiEsPrimo);
 
-
-
 function mostrarMayor(){
     let num1 = Number.parseFloat(document.getElementById("num_mayor1").value);
     let num2 = Number.parseFloat(document.getElementById("num_mayor2").value);
