@@ -54,6 +54,7 @@ function construirArbol(){
     /*
     TODO Explorar arbol y agregarlo al entorno grafico.
     TODO una opcion es guardar el arbol ya creado en una pila y dibujarlo
+    TODO revisar metotodo "buscar jefe mayor en "problemasjunio.js"
      */
     /* myDiagram.model = new go.TreeModel(
         [
