@@ -6,7 +6,7 @@ class NodoArbol {
     }
   }
   
-class ArbolBusquedaBinaria {
+export default class ArbolBinario {
     constructor() {
       this.root = null;
     }
@@ -46,6 +46,16 @@ class ArbolBusquedaBinaria {
         }
       }
     }
-}
 
-export default ArbolBusquedaBinaria;
+    searchRecursive(node, value) {
+      if (node === null) { // El nodo {1} es nulo
+          return false;
+      } else if (value === node.value) { // {2} encontrar nodo
+          return true;
+      } else if (value < node.value) { // {3} Buscar desde el nodo izquierdo
+          return this.searchRecursive(node.left, value);
+      } else { // {4} Buscar desde el nodo a la derecha
+          return this.searchRecursive(node.right, value);
+      }
+    }
+  }
