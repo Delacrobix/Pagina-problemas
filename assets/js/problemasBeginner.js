@@ -36,7 +36,6 @@ export function isVocal(character){
 }
 
 /* 
-*Aqui tengo un segundo cambio para probar el git
 *Escribir una funcion sum() y una funcion multp() que sumen y multipliquen  respectivamente
 *Respectivamente todos los numeros de una lista. Por ejemplo sum([1, 2, 3]) debe retornar 6 y 
 *multp([1, 2, 4]) debe retornar 8

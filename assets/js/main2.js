@@ -9,7 +9,6 @@ document.getElementById("boton_arbol").addEventListener('click', construirArbol)
 ? Seccion dedicada al entorno grafico del arbol.
 */
 
-
 /* 
 TODO Buscar manera de bloquear los elementos del arbol en la interfaz para hacerlos inamovibles
 */

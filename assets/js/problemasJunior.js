@@ -57,21 +57,23 @@ console.log(isClosed(stri));
 *Dada una estructura jerarquica (una empresa por ejemplo). A su ves esta estructura
 *tiene forma de arbol. ¿Cual seria el primer jefe comun en esta jerarquia si introducimos
 *dos trabajadores en cargos arbitrarios? 
+TODO completar UI
+TODO completar algoritmo 
 */
 
-function esJefeComun(arbol, worker1, worker2){
-
-}
-
-export function buscarJefeComun(){
+export function buscarJefeComun(arbol, worker1, worker2){
     let flagWorker1 = false,
         flagWorker2 = false,
         nodoJefe;
 
     if (node === null) { // El nodo {1} es nulo
         return false;
-    } else if (value === node.value) { // {2} encontrar nodo
-        return true;
+    } else if (value === worker1) { // {2} encontrar nodo
+        flagWorker1 = true;
+        return flagWorker1;
+    } else if (value === worker2) { // {2} encontrar nodo
+        flagWorker2 = true;
+        return flagWorker2;
     } else if (value < node.value) { // {3} Buscar desde el nodo izquierdo
         return this.searchRecursive(node.left, value);
     } else { // {4} Buscar desde el nodo a la derecha

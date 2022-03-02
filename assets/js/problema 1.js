@@ -9,6 +9,7 @@ Ejem:
     [0, 2, 0, 1, 3, 0, 1]
 
 *Las 'I' representan la altura de las paredes y las 'N' las zonas con nieve para el vector de ejemplo.
+TODO interfaz grafica
 */
 
 var altura_paredes = [0, 1, 0, 2, 1, 0, 3, 2, 1, 1, 1, 5, 0, 2];
