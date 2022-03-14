@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="./assets/js/problemas-hola-mundo.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>App motociclistas</h1>
+    <h6>Construye una lista que contenga tramos horarios en en intervalos de 30 min, 
+        que empiece a las 8 am y termine a las 8 pm. La empresa tiene disponibilidad
+        de 8 motociclistas cada 30 min, cuando alguien haga click sobre una de estas cajas
+        tomara un recurso de motociclista (un contador de motociclistas) ademas de marcar
+        la caja en verde. Si el mismo usuario da click en esa caja debera liberar el recurso.
+        Si otros usuarios han tomado todos los motociclistas en ese horario debera aparecer
+        en color rojo y no debera permitir tomar un recurso en ese horario.
+    </h6>
+    <button id="btn_crear-usuario">Crear Usuario</button>
+    <table id="tabla-motociclistas">
+        <thead> <!-- Permite agrupar elementos de la cabecera -->
+            <tr> <!-- Fila de una tabla -->
+                <th>cabecera</th> <!-- Cabecera de una columna -->
+           </tr>
+        </thead> 
+        <tbody> <!-- Permite agrupar elementos del cuerpo de la tabla -->
+            <tr>
+                <td><button id="btn-horario" value="8:00">8:00</button></td>
+                <td><button class="btn-horario">8:30</button></td>
+                <td><button class="btn-horario">9:00</button></td>
+                <td><button>9:30</button></td>
+                <td><button>10:00</button></td>
+                <td><button>10:30</button></td>
+                <td><button>11:00</button></td>
+                <td><button>11:30</button></td>
+                <td><button>12:00</button></td>
+                <td><button>12:30</button></td>
+                <td><button>1:00</button></td>
+            </tr>
+        </tbody>
+        <tfoot> <!-- Agrupa la fila final de la tabla -->
+            <td>Total: x</td>
+        </tfoot>
+    </table>
+</body>
+</html>
